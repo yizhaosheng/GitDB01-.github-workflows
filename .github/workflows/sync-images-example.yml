@@ -22,7 +22,7 @@ jobs:
       with:
         registry: crpi-7friixgo15237y1p.cn-shanghai.personal.cr.aliyuncs.com
         username: ${{secrets.Sdyizhaosheng163}}
-        password: ${{secrets.sd.89731116}}
+        password: ${{secrets.sd89731116}}
         logout: false
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
