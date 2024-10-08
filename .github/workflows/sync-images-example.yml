@@ -21,8 +21,8 @@ jobs:
       uses: docker/login-action@v2.2.0
       with:
         registry: crpi-7friixgo15237y1p.cn-shanghai.personal.cr.aliyuncs.com
-        username: ${{secrets.Sdyizhaosheng163}}
-        password: ${{secrets.sd89731116}}
+        username: ${{Sdyizhaosheng163}}
+        password: ${{sd89731116}}
         logout: false
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
